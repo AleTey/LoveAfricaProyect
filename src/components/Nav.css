@@ -1,0 +1,32 @@
+.nav-container {
+  width: auto;
+  max-width: 1200px;
+  height: 7rem;
+  /* border: 2px solid black; */
+}
+
+.buttons-nav-container {
+  /* display: grid; */
+  display: flex;
+  gap: 5px;
+  height: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.button-container {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.active-link button {
+  background-color: blue;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}

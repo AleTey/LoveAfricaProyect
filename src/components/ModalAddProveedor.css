@@ -1,0 +1,24 @@
+.add-proveedor-form {
+  margin-top: 20px;
+}
+
+.contact-cel {
+  display: flex;
+}
+#floatingInput-contact-caracteristica {
+  width: 50px;
+}
+
+.btn-send-new-proveedor-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-send-new-proveedor {
+  width: 200px;
+}
+
+.errors {
+  color: red;
+}

@@ -1,0 +1,24 @@
+.nav-button {
+  height: 90%;
+  width: 90%;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #333;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 2px;
+}
+
+.nav-button:active {
+  border: 3px solid #111;
+  font-size: 1.8rem;
+}
+
+/* .active-link {
+  border: 3px solid red;
+}  */
+

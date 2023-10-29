@@ -1,0 +1,104 @@
+{
+  "colors": [
+    {
+      "codigoDistribuidor": "S07-PURPURA",
+      "color": "PURPURa",
+      "tipo": "LYCRA",
+      "distribuidor": "TEXTILEX",
+      "temporada": "2023",
+      "id": "1",
+      "img": "/src/db/imgs/S07PURPURA.JPEG"
+    },
+    {
+      "codigoDistribuidor": "S04-SHAMPAGNE",
+      "color": "SHAMPAGNE",
+      "tipo": "LYCR",
+      "distribuidor": "TEXTILEX",
+      "temporada": "2023",
+      "id": "2",
+      "img": "/src/db/imgs/S04SHAMPAGNE.JPEG"
+    },
+    {
+      "codigoDistribuidor": "A02-MANTEQUILLA",
+      "color": "MANTEQUILLA",
+      "tipo": "LYCRA",
+      "distribuidor": "MUNDO-TEXTIL",
+      "idProveedor": "3",
+      "temporada": "2024",
+      "id": "3",
+      "img": "/src/db/imgs/A02MANTEQUILLA900.JPEG"
+    },
+    {
+      "id": "4",
+      "codigoDistribuidor": "CACAO",
+      "color": "CACAO",
+      "tipo": "MORLEY",
+      "distribuidor": "TEXTILEX",
+      "idProveedor": "1",
+      "temporada": "2023",
+      "img": "/src/db/imgs/CACAO-MORLEY.JPEG"
+    },
+    {
+      "codigoDistribuidor": "R24-CHICLE-HOLLY",
+      "color": "CHICLE",
+      "tipo": "LYCRA",
+      "distribuidor": "TEXTILEX",
+      "idProveedor": "1",
+      "temporada": "2023",
+      "id": "5",
+      "img": "/src/db/imgs/R24CHICLE-HOLLY.JPEG"
+    },
+    {
+      "id": "6",
+      "codigoDistribuidor": "A09-LIMA",
+      "color": "LIMA",
+      "tipo": "LYCRA",
+      "distribuidor": "TEXTILEX",
+      "idProveedor": "1",
+      "temporada": "2023",
+      "img": "/src/db/imgs/A09LIMA.JPEG"
+    },
+    {
+      "codigoDistribuidor": "Black-Alter",
+      "color": "Black",
+      "tipo": "LYCRA",
+      "distribuidor": "ALTER",
+      "idProveedor": "3",
+      "temporada": "ALL",
+      "id": "123"
+    },
+    {
+      "codigoDistribuidor": "White-Alter",
+      "color": "White",
+      "tipo": "LYCRA",
+      "distribuidor": "ALTER",
+      "idProveedor": "3",
+      "temporada": "ALL",
+      "id": "132"
+    },
+    {
+      "codigoDistribuidor": "Orange1",
+      "color": "Orange",
+      "tipo": "Lycra",
+      "distribuidor": "Alter",
+      "temporada": "all",
+      "id": "4325"
+    },
+    {
+      "codigoDistribuidor": "LUREX-PLATA",
+      "color": "LUREX",
+      "tipo": "LUREX",
+      "distribuidor": "MUNDO-TEXTIL",
+      "temporada": "2020",
+      "id": "xXvewU6"
+    },
+    {
+      "codigoDistribuidor": "fesdf3",
+      "color": "fesdf",
+      "tipo": "lycra",
+      "distribuidor": "fdsdf",
+      "temporada": "2020",
+      "id": "43255321"
+    }
+  ]
+}

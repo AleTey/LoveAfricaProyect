@@ -1,0 +1,42 @@
+.buscador-container {
+  margin: 5px;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.catalogo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* j */
+
+#nueva-tela {
+  padding-left: 3px;
+  width: 160px;
+ 
+}
+
+#nueva-tela p {
+  margin-left: 8px;
+}
+
+button .p {
+  position: absolute;
+  text-align: center;
+}

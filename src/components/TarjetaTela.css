@@ -1,0 +1,99 @@
+.tarjeta-tela-container {
+  /* display: grid; */
+  /* flex-direction: grid; */
+  /* grid-template-rows: 1fr 0.5fr; */
+  /* grid-template-columns: 1fr; */
+  /* border: 1px solid black; */
+  /* min-width: 270px; */
+  max-width: 500px;
+  /* flex-grow: 2; */
+  /* height: 400px; */
+}
+
+.img-tela-container {
+  /* width: 100%; */
+  /* height: 250px; */
+  width: 250px;
+  height: 300px;
+  /* margin: 5px; */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* object-fit: cover; */
+  background-color: red;
+  /* align-self: auto; */
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+
+  /* object-fit: cover; */
+}
+
+.detalles-acciones-container {
+  display: flex;
+  width: 100%;
+}
+
+.detalles-tela {
+  padding: 0 10px;
+  width: 100%;
+}
+
+.edit-card {
+  padding: 0 10px;
+  width: 100%;
+}
+
+/* .edit-card h4 {
+  display: inline-block;
+  padding: 0;
+  margin: 5px;
+}
+.edit-card span {
+  display: block;
+  padding: 1px;
+} */
+
+.btn-confirmar-container {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn-confirmar {
+  width: 80px;
+  /* margin-left: auto; */
+}
+
+.acciones-container {
+  /* height: 100%; */
+  /* width: 20%; */
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  /* border: 2px solid black; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: start; */
+}
+
+.card-telas-btn {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+  /* color: green; */
+}
+
+.added {
+  background-color: green !important;
+}
+
+.input-tela-form {
+  /* height: 20px; */
+}

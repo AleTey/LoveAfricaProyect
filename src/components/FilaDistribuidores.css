@@ -1,0 +1,60 @@
+/* .wrapper {
+  display: flex;
+  flex-direction: column;
+} */
+
+.distribuidor-container{
+  display: flex;
+  border-bottom: 1px solid #000;
+  min-height: 50px;
+}
+
+.is-expanded {
+  border: none;
+}
+
+.empresa__distribuidor-container {
+  width: 50%;
+}
+
+.rubro__distribuidor-container {
+  width: 50%;
+}
+
+.none {
+  display: none;
+}
+
+
+.expanded {
+  display: flex;
+  /* height: 50px; */
+  border-bottom: 1px solid #000;
+  /* padding-bottom: 50px; */
+}
+
+.distribuidor-detalles {
+
+}
+
+.distribuidor-data {
+  /* display: flex; */
+}
+
+.item-form {
+  display: flex;
+  width: 100%;
+  /* height: 30px; */
+  flex-direction: row;
+  gap: 5px;
+}
+
+.confirm {
+  height: 20px;
+}
+
+.distribuidor-data-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
