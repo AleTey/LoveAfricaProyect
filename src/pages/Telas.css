@@ -40,3 +40,13 @@ button .p {
   position: absolute;
   text-align: center;
 }
+
+.buttons-telas-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+#add-tela-btn {
+  width: 100px;
+}

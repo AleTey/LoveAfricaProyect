@@ -41,7 +41,7 @@ const validationForm = (form) => {
 
 const errorFormString = "Hay errores en el formulario"
 
-const ModalAddProveedor = ({ setAddProveedor }) => {
+const ModalAddProveedor = ({ setAddProveedor, setDisHasChanged, setProvWasAdded }) => {
 
   const [nuevoProveedor, setNuevoProveedor] = useState(initialFormAddProveedor);
   const [successful, setSuccessful] = useState(false)
@@ -99,7 +99,6 @@ const ModalAddProveedor = ({ setAddProveedor }) => {
     } else {
       setErrors(validationForm(nuevoProveedor))
     }
-
   }
 
   const sendNewProveedor = async () => {
@@ -117,8 +116,12 @@ const ModalAddProveedor = ({ setAddProveedor }) => {
         // console.log(res)
         // console.log(json)
         setSuccessful(true)
+        setProvWasAdded(true)
+        // setDisHasChanged(true)
         setTimeout(() => {
           setSuccessful(false)
+          // setProvWasAdded(false)
+          // setDisHasChanged(false)
           // setAddProveedor(false)
         }, 5000)
         setNuevoProveedor(initialFormAddProveedor)
@@ -129,7 +132,7 @@ const ModalAddProveedor = ({ setAddProveedor }) => {
       }
     } catch (error) {
       console.log(error)
-      console.log(res.statusText)
+      // console.log(res.statusText)
     }
   }
 

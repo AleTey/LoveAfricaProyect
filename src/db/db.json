@@ -2,7 +2,7 @@
   "colors": [
     {
       "codigoDistribuidor": "S07-PURPURA",
-      "color": "PURPURa",
+      "color": "PURPURA",
       "tipo": "LYCRA",
       "distribuidor": "TEXTILEX",
       "temporada": "2023",
@@ -14,16 +14,16 @@
       "color": "SHAMPAGNE",
       "tipo": "LYCR",
       "distribuidor": "TEXTILEX",
+      "idProveedor": "1",
       "temporada": "2023",
       "id": "2",
       "img": "/src/db/imgs/S04SHAMPAGNE.JPEG"
     },
     {
       "codigoDistribuidor": "A02-MANTEQUILLA",
-      "color": "MANTEQUILLA",
+      "color": "MANTEQUILLa",
       "tipo": "LYCRA",
       "distribuidor": "MUNDO-TEXTIL",
-      "idProveedor": "3",
       "temporada": "2024",
       "id": "3",
       "img": "/src/db/imgs/A02MANTEQUILLA900.JPEG"
@@ -63,7 +63,7 @@
       "color": "Black",
       "tipo": "LYCRA",
       "distribuidor": "ALTER",
-      "idProveedor": "3",
+      "idProveedor": "2",
       "temporada": "ALL",
       "id": "123"
     },
@@ -72,7 +72,7 @@
       "color": "White",
       "tipo": "LYCRA",
       "distribuidor": "ALTER",
-      "idProveedor": "3",
+      "idProveedor": "2",
       "temporada": "ALL",
       "id": "132"
     },
@@ -81,6 +81,7 @@
       "color": "Orange",
       "tipo": "Lycra",
       "distribuidor": "Alter",
+      "idProveedor": "2",
       "temporada": "all",
       "id": "4325"
     },
@@ -89,6 +90,7 @@
       "color": "LUREX",
       "tipo": "LUREX",
       "distribuidor": "MUNDO-TEXTIL",
+      "idProveedor": "3",
       "temporada": "2020",
       "id": "xXvewU6"
     },
@@ -99,6 +101,33 @@
       "distribuidor": "fdsdf",
       "temporada": "2020",
       "id": "43255321"
+    },
+    {
+      "codigoDistribuidor": "sdlfes",
+      "color": "prueba select",
+      "tipo": "Lycra",
+      "distribuidor": "MUNDO-TEXTIL",
+      "idDistribuidor": "3",
+      "temporada": "2345",
+      "id": "tQXXbPG"
+    },
+    {
+      "codigoDistribuidor": "Bali",
+      "color": "Bali",
+      "tipo": "Lycra- estampada",
+      "distribuidor": "ALTER",
+      "idDistribuidor": "2",
+      "temporada": "2018",
+      "id": "endsN1a"
+    },
+    {
+      "codigoDistribuidor": "wolf",
+      "color": "wolf",
+      "tipo": "lyca-estampada",
+      "distribuidor": "ALTER",
+      "idDistribuidor": "2",
+      "temporada": "2017",
+      "id": "7annL7i"
     }
   ]
 }

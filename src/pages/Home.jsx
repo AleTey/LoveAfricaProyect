@@ -29,7 +29,7 @@ const Home = () => {
   //   fetchDistribuidores();
   // }, [])
   return (
-    <h2>HOME</h2>
+    <h2 className='title'>HOME</h2>
   )
 }
 

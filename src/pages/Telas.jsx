@@ -10,6 +10,7 @@ const newTelaFormInitialState = {
   color: "",
   tipo: "",
   distribuidor: "",
+  idDistribuidor: "",
   temporada: "",
   id: "",
 }
@@ -83,17 +84,48 @@ const Telas = () => {
   return (
     <>
       {modalWindowIsVisible &&
-        <ModalAddElement title="Agregar tela" setModalWindowIsVisible={setModalWindowIsVisible} newTelaForm={newTelaForm} setNewTelaForm={setNewTelaForm} initialState={newTelaFormInitialState}  >
+        <ModalAddElement
+          title="Agregar tela"
+          setModalWindowIsVisible={setModalWindowIsVisible}
+          newTelaForm={newTelaForm}
+          setNewTelaForm={setNewTelaForm}
+          initialState={newTelaFormInitialState}
+          setIsChanged={setIsChanged}
+        >
           <FormNuevaTela newTelaForm={newTelaForm} setNewTelaForm={setNewTelaForm} initialState={newTelaFormInitialState} />
-        </ModalAddElement>}
+        </ModalAddElement>
+      }
       <h2 className='title'>TELAS</h2>
       <div className="buscador-container">
         <nav className="navbar bg-body-tertiary">
           <div className="container-fluid">
             <form className="d-flex" role="search">
-              <input className="form-control me-2" name='buscador'  type="search" placeholder="Search" onChange={handleBuscador} value={buscador}  aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit" onClick={handleBuscar} >Search</button>
-              <button type="button" className="btn btn-outline-secondary" onClick={handleAddTela}>Add Tela</button>
+              <input
+                className="form-control me-2"
+                name='buscador'
+                type="search"
+                placeholder="Search"
+                onChange={handleBuscador}
+                value={buscador}
+                aria-label="Search"
+              />
+              <div className="buttons-telas-container">
+                <button
+                  className="btn btn-outline-success"
+                  type="submit"
+                  onClick={handleBuscar}
+                >
+                  Search
+                </button>
+                <button
+                  type="button"
+                  id='add-tela-btn'
+                  className="btn btn-outline-secondary"
+                  onClick={handleAddTela}
+                >
+                  Add Tela
+                </button>
+              </div>
             </form>
           </div>
         </nav>

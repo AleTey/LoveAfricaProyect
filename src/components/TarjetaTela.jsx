@@ -13,6 +13,7 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
 
   const [added, setAdded] = useState(false);
   const [editCard, setEditCard] = useState(false);
+  const [editSucced, setEditSucced] = useState(false);
 
   const [edit, setEdit] = useState({
     codigoDistribuidor: tela.codigoDistribuidor,
@@ -74,6 +75,10 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
         const objetoActualizado = await res.json();
         console.log(objetoActualizado);
         setIsChanged(true);
+        setEditSucced(true);
+        setTimeout(() => {
+          setEditSucced(false)
+        }, 5000);
       } else {
         console.log(res)
         console.log(res.status)
@@ -93,13 +98,13 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
           <img src={tela.img} className="card-img-top img-tela-container" alt="..." />
           <div className="card-body">
             {/* <h5 className="card-title">Card title</h5> */}
-             {/* className="card-text" */}
-              <h5>Color: {tela.color}</h5>
-              <h5>Codigo: {tela.codigoDistribuidor}</h5>
-              <h5>Tipo: {tela.tipo}</h5>
-              <h5>Distribuidor: {tela.distribuidor}</h5>
-              <h5>Temporada: {tela.temporada}</h5>
-              <h5>Id: {tela.id}</h5>
+            {/* className="card-text" */}
+            <h5>Color: {tela.color}</h5>
+            <h5>Codigo: {tela.codigoDistribuidor}</h5>
+            <h5>Tipo: {tela.tipo}</h5>
+            <h5>Distribuidor: {tela.distribuidor}</h5>
+            <h5>Temporada: {tela.temporada}</h5>
+            <h5>Id: {tela.id}</h5>
             <div className="acciones-container">
               {added ?
                 <a className="btn btn-primary added" onClick={handleAddButton}><MdOutlineCheck size={30} color="white" /></a>
@@ -143,8 +148,20 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
             <span> <h4>Tipo:</h4><input onChange={handleEditForm} type="text" name='tipo' value={edit.tipo} /></span>
             <span> <h4>Distribuidor:</h4><input onChange={handleEditForm} type="text" name='distribuidor' value={edit.distribuidor} /></span>
             <span> <h4>Temporada:</h4><input onChange={handleEditForm} type="text" name='temporada' value={edit.temporada} /> </span> */}
-            <div className="btn-confirmar-container">
-              <button onClick={handleConfirmBtn} type='submit' className='btn-confirmar'>Confirmar</button>
+            <div className="btn-confirmar-edicion-container">
+              {editSucced ?
+                <button type="button" className="btn btn-success">Success</button> :
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  id='btn-confirm-edit'
+                  onClick={handleConfirmBtn}
+                >
+                  Confirm
+                </button>
+              }
+              {/* <div className="btn-send-new-proveedor-container"> */}
+              {/* <button onClick={handleConfirmBtn} type='submit' className='btn-confirmar'>Confirmar</button> */}
             </div>
           </div>
           <div className="acciones-container">
@@ -155,7 +172,7 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
             }
             <a className="btn btn-primary"><MdOutlineEdit size={30} color='white' onClick={handleEdditButton} /></a>
           </div>
-        </div>
+        </div >
 
       }
       {/* <div className="tarjeta-tela-container">

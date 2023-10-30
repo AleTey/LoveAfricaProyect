@@ -1,4 +1,5 @@
 header {
+  height: 100px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 1;
@@ -9,7 +10,9 @@ header {
 }
 
 .title-container {
-  grid-column: 3/8;
+  grid-column: 4/8;
+  justify-self: center;
+  align-self: center;
 }
 
 .user-container {
@@ -22,6 +25,20 @@ header {
   justify-content: center;
   align-items: center;
   grid-column: 10/11;
+}
+
+.cart-container button {
+  border: none;
+}
+
+.cart {
+  color: blue;
+  margin: 10px;
+}
+.link-cart-active {
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 50px;
 }
 
 h1 {

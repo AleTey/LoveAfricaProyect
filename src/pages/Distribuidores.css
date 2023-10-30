@@ -6,6 +6,13 @@
   flex-direction: column;
 }
 
+.buttons-proveedor-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 5px;
+}
+
 .table-container {
   /* display: flex; */
   /* flex-direction: row; */

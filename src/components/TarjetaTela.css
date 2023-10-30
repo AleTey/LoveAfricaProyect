@@ -94,6 +94,8 @@
   background-color: green !important;
 }
 
-.input-tela-form {
-  /* height: 20px; */
+.btn-confirmar-edicion-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }

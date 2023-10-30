@@ -1,0 +1,9 @@
+Proyect Love Africa
+
+--------------
+| Pendientes |
+--------------
+
+- db => agregar tipos de telas
+- formTelas => pasar input tipo telas a select
+09:11 29/10/2023

@@ -1,13 +1,17 @@
 .nav-container {
   width: auto;
   max-width: 1200px;
-  height: 7rem;
+  height: 5rem;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
   /* border: 2px solid black; */
 }
 
 .buttons-nav-container {
   /* display: grid; */
   display: flex;
+  align-items: center;
   gap: 5px;
   height: 100%;
   grid-template-rows: 100%;
