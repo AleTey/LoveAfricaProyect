@@ -1,0 +1,132 @@
+{
+  "usuarios": [
+    {
+      "id": "",
+      "nombre": "Alejandro",
+      "apellido": "Torres Castagnaro",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asd",
+      "permiso": "6"
+    },
+    {
+      "id": "",
+      "nombre": "Euge",
+      "apellido": "Luengo",
+      "email": "euge@gmail.com",
+      "password": "asd",
+      "permiso": "6"
+    },
+    {
+      "id": "",
+      "nombre": "Belgrano",
+      "apellido": "showRoom",
+      "email": "belgrano@gmail.com",
+      "password": "asd",
+      "permiso": "4"
+    },
+    {
+      "id": "",
+      "nombre": "Palermo",
+      "apellido": "showRoom",
+      "email": "palermo@gmail.com",
+      "password": "asd",
+      "permiso": "3"
+    },
+    {
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "repeatPass": "",
+      "permisos": "",
+      "id": "8MrVwL_"
+    },
+    {
+      "nombre": "ale",
+      "email": "",
+      "password": "",
+      "repeatPass": "",
+      "permisos": "",
+      "id": "7wswae-"
+    },
+    {
+      "nombre": "alejandro",
+      "email": "",
+      "password": "",
+      "repeatPass": "",
+      "permisos": "",
+      "id": "-nzKqNd"
+    },
+    {
+      "nombre": "ale",
+      "email": "alecastagnaro@gmail.com",
+      "password": "",
+      "repeatPass": "",
+      "permisos": "",
+      "id": "Y9g_lkn"
+    },
+    {
+      "nombre": "ale",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asdf1asdf",
+      "repeatPass": "asdf1asdf",
+      "permisos": "1",
+      "id": "spFHFvh"
+    },
+    {
+      "nombre": "ale",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asdf",
+      "repeatPass": "asdf",
+      "permisos": "6",
+      "id": "PEiSmp4"
+    },
+    {
+      "nombre": "aletey",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asdf",
+      "repeatPass": "asdf",
+      "permisos": "",
+      "id": "iwUxm2e"
+    },
+    {
+      "nombre": "ale",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asdfd",
+      "repeatPass": "asdfd",
+      "permisos": "",
+      "id": "1rdHZ77"
+    },
+    {
+      "nombre": "Don Ramiro",
+      "email": "alecastagnaro@gmail.com",
+      "password": "1234",
+      "repeatPass": "1234",
+      "permisos": "Nivel de permisos",
+      "id": "xdMsYv9"
+    },
+    {
+      "nombre": "ale",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asdf",
+      "repeatPass": "asdf",
+      "permisos": "Nivel de permisos",
+      "id": "sX3UgeK"
+    },
+    {
+      "nombre": "ale",
+      "email": "alecastagnaro@gmail.com",
+      "password": "asd",
+      "repeatPass": "asd",
+      "permisos": "1",
+      "id": "1_nAemE"
+    },
+    {
+      "nombre": "ale",
+      "email": "ale@gmail.com",
+      "password": "asdf",
+      "repeatPass": "asdf",
+      "permisos": "6",
+      "id": "aK1HYOc"
+    }
+  ]
+}

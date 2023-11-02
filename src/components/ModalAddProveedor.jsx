@@ -7,7 +7,7 @@ import { useForm } from '../hooks/useForm';
 
 const validationForm = (form) => {
   let errors = {}
-  console.log(errors)
+  // console.log(errors)
 
   let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
   let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
@@ -100,6 +100,8 @@ const ModalAddProveedor = ({ setAddProveedor, setDisHasChanged, setProvWasAdded 
       setErrors(validationForm(nuevoProveedor))
     }
   }
+
+  
 
   const sendNewProveedor = async () => {
     try {

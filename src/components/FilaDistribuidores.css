@@ -33,8 +33,8 @@
   /* padding-bottom: 50px; */
 }
 
-.distribuidor-detalles {
-
+.distribuidor-detalles input {
+  padding: 0px;
 }
 
 .distribuidor-data {
@@ -46,11 +46,14 @@
   width: 100%;
   /* height: 30px; */
   flex-direction: row;
+  /* text-align: center; */
   gap: 5px;
+  margin: 10px;
 }
 
 .confirm {
-  height: 20px;
+  margin: 3px;
+  padding: 2px;
 }
 
 .distribuidor-data-contacto {

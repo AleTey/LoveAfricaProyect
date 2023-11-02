@@ -21,19 +21,16 @@ const Telas = () => {
   const [lastSearch, setLastSearch] = useState("")
   const [buscador, setBuscador] = useState("")
   const [telaBuscada, setTelaBuscada] = useState([])
-  // const [TelasAddedList, setTelasAddedList] = useState([]);
   const [db, setDb] = useState([]);
   const [isChanged, setIsChanged] = useState(false)
   const [modalWindowIsVisible, setModalWindowIsVisible] = useState(false)
   const [newTelaForm, setNewTelaForm] = useState(newTelaFormInitialState)
-  // const [edit, setEdit] = useState({})
+
 
   useEffect(() => {
     const petition = async () => {
-      console.log(db);
       const res = await fetch("http://localhost:3000/colors")
       const json = await res.json()
-
       setDb(json);
       setIsChanged(false)
     }
@@ -53,7 +50,6 @@ const Telas = () => {
     })
     setTelaBuscada(resultadosBusqueda);
   }, [db]);
-
 
   const handleBuscador = (e) => {
     setBuscador(e.target.value)
@@ -78,7 +74,6 @@ const Telas = () => {
 
   const handleAddTela = (e) => {
     setModalWindowIsVisible(true)
-
   }
 
   return (
@@ -129,7 +124,6 @@ const Telas = () => {
             </form>
           </div>
         </nav>
-
       </div>
 
       <div className="catalogo-container">

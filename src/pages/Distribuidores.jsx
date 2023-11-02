@@ -59,18 +59,14 @@ const Distribuidores = () => {
       // console.log(dbDistribuidores)
       return Object.values(prov).some((value) => {
         if (typeof value === "string") {
-          console.log(buscadorProv)
+          // console.log(buscadorProv)
           return value.toLowerCase().includes(elSerched)
         }
         return false;
       })
     })
     setProveedoresEncontrados(disEncontrados);
-    console.log(proveedoresEncontrados)
-  }
-
-  const expandHandler = (e) => {
-    console.log(e)
+    // console.log(proveedoresEncontrados)
   }
 
   const handleAddProvedorClick = (e) => {
@@ -126,11 +122,6 @@ const Distribuidores = () => {
           </div>
         </div>
         <div className="body__table-container">
-
-
-
-
-
 
           {proveedoresEncontrados.length > 0 ? (proveedoresEncontrados.map(el => (
             

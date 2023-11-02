@@ -148,9 +148,17 @@ const FilaDistribuidores = ({ el, setDisHasChanged }) => {
               </div> :
               <>
                 <div className="item-form">
-                  <input onChange={formHandeler} type="text" value={formDis.empresa} name='empresa' />
+                  <b>Empresa:</b> <input onChange={formHandeler} type="text" value={formDis.empresa} name='empresa' />
                   <MdOutlineEdit onClick={() => setEditDisHandler("empresa")} />
-                  <button onClick={handleConfirmBtn} className='confirm' type='submit'>Confirm</button>
+                  <button
+                    type="button"
+                    className="btn btn-primary confirm"
+                    onClick={handleConfirmBtn}
+                    // style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
+                  >
+                    Confirmar
+                  </button>
+                  {/* <button onClick={handleConfirmBtn} className='confirm' type='submit'>Confirm</button> */}
                 </div>
               </>
             }
@@ -165,7 +173,8 @@ const FilaDistribuidores = ({ el, setDisHasChanged }) => {
                 <div className="item-form">
                   <b>Email:</b>   <input onChange={formHandeler} type="text" value={formDis.email} name='email' />
                   <MdOutlineEdit onClick={() => setEditDisHandler("email")} />
-                  <button onClick={handleConfirmBtn} className='confirm' type='submit'>Confirm</button>
+                  <button type="button" className="btn btn-primary confirm" onClick={handleConfirmBtn}>Confirmar</button>
+                  {/* <button onClick={handleConfirmBtn} className='confirm' type='submit'>Confirm</button> */}
                 </div>
               </>
             }

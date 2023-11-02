@@ -9,7 +9,11 @@ header {
   grid-column: 1/3;
 }
 
-.title-container {
+.title-container-acces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   grid-column: 4/8;
   justify-self: center;
   align-self: center;
@@ -20,16 +24,6 @@ header {
   display: flex;
   align-items: center;
 }
-
-.user-name {
-  display: flex;
-}
-
-/* .user-options button {
-  width: 500px;
-} */
-
-
 
 .cart-container {
   display: flex;
@@ -56,6 +50,3 @@ h1 {
   font-size: 3rem;
 }
 
-.dropdown-item:hover {
-cursor: pointer;
-}

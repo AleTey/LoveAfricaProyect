@@ -43,6 +43,17 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
     }
   }
 
+  // useEffect(()=>{
+  //   // console.log(tela.id)
+  //   telasAddedList.map((telaList)=> (telaList.id === tela.id && setAdded(true)))
+    
+  // },[TarjetaTela])
+
+  useEffect(()=>{
+    const isTelaAdded = telasAddedList.some((telaList)=> telaList.id === tela.id )
+    setAdded(isTelaAdded)
+  },[TarjetaTela])
+
   const handleEditForm = (e) => {
     setEdit({
       ...edit,
@@ -95,7 +106,11 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
     <>
       {!editCard ?
         <div className="tarjeta-tela-container" >
+          {tela.img ? 
           <img src={tela.img} className="card-img-top img-tela-container" alt="..." />
+          :
+          <img src="src/db/imgs/image-not-found.jpg" className="card-img-top img-tela-container" alt="..." />
+          }
           <div className="card-body">
             {/* <h5 className="card-title">Card title</h5> */}
             {/* className="card-text" */}
