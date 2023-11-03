@@ -1,0 +1,40 @@
+
+.pack-container {
+  border: 1px solid rgba(180, 180, 180, .8);
+  min-width: 400px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.header-container {
+  background-color: #373b3e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+
+.nombre-empresa__header {  
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.expand-items-added-list {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.contenedor-items {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.contenedor-items-off {
+  display: none;
+}

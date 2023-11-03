@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import './ModalNewAcc.css'
 import { newAccInitialState } from '../constantes/newAccInitialState'
+// import bcrypt from 'bcrypt';
 
 const validationForm = (form) => {
 
@@ -68,6 +69,51 @@ const ModalNewAcc = ({ setModalNewAccForm }) => {
   const [creacionExitosa, setCreacionExitosa] = useState(false);
 
 
+  const [cryptPass, setCryptPass] = useState("")
+
+
+  // const crypting = () => {
+  //   const bcrypt = require('bcrypt');
+  //   const saltRounds = 10;
+  //   const myPlaintextPass = 'asdasd';
+
+  //   bcrypt.genSalt(saltRounds, function (err, salt) {
+  //     if (err) {
+  //       console.log.error(err)
+  //     } else {
+  //       bcrypt.hash(myPlaintextPass, salt, function (err, hash) {
+  //         if (err) {
+  //           console.log(err)
+  //         } else {
+  //           console.log(hash)
+  //         }
+
+  //       })
+  //     }
+  //   })
+  // }
+
+  //   bcrypt.genSalt(saltRounds, function (err, salt) {
+  //     if (err) {
+  //       console.error(err); // Utiliza console.error en lugar de console.log.error
+  //     } else {
+  //       bcrypt.hash(myPlaintextPass, salt, function (err, hash) {
+  //         if (err) {
+  //           console.error(err); // Utiliza console.error en lugar de console.log.error
+  //         } else {
+  //           console.log(hash);
+  //         }
+  //       });
+  //     }
+  //   });
+  // };
+
+
+
+
+
+
+
   const handleCloseModal = (e) => {
     setModalNewAccForm(false)
   }
@@ -110,6 +156,35 @@ const ModalNewAcc = ({ setModalNewAccForm }) => {
       console.log("se encontraron errores")
     }
   }
+
+  // const sendFormNewAcc = () => {
+  //   const sendFormNewAccFn = async () => {
+  //     try {
+  //       const res = await fetch("http://localhost:5000/usuarios", {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json"
+  //         },
+  //         body: JSON.stringify(newAccForm)
+  //       });
+  //       if (res.ok) {
+  //         const json = await res.json()
+  //         console.log(json)
+  //         crypting()
+  //         setCreacionExitosa(true)
+  //         setNewAccForm(newAccInitialState)
+  //         setIsValid({})
+  //         console.log(json)
+  //         setTimeout(() => {
+  //           setCreacionExitosa(false)
+  //         }, 5000)
+  //       }
+  //     } catch (error) {
+  //       console.log("Ocurrio un error")
+  //     }
+  //   }
+  //   sendFormNewAccFn()
+  // }
 
   const sendFormNewAcc = () => {
     const sendFormNewAccFn = async () => {

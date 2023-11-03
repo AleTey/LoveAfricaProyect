@@ -1,7 +1,19 @@
 .carrito-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.carrito-title {
+.carrito-title-container {
+  height: auto;
+}
 
+.sub-container-carrito {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }

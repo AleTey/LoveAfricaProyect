@@ -5,15 +5,18 @@
   /* grid-template-columns: 1fr; */
   /* border: 1px solid black; */
   /* min-width: 270px; */
-  max-width: 500px;
+  /* max-width: 500px; */
   /* flex-grow: 2; */
   /* height: 400px; */
+  width: 270px;
+  border: 1px solid rgba(100, 100, 100, .2);
+  border-radius: 5px;
 }
 
 .img-tela-container {
   /* width: 100%; */
   /* height: 250px; */
-  width: 250px;
+  width: 100%;
   height: 300px;
   /* margin: 5px; */
   /* display: flex; */
@@ -22,6 +25,7 @@
   /* object-fit: cover; */
   background-color: red;
   /* align-self: auto; */
+  border-radius: 5px;
 }
 
 .img {

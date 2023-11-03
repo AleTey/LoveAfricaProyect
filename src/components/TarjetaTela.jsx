@@ -73,6 +73,7 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
       const newBody = {
         ...edit,
         id: tela.id,
+        idDistribuidor: tela.idDistribuidor,
         img: tela.img,
       }
       const res = await fetch(`http://localhost:3000/colors/${tela.id}`, {
@@ -111,7 +112,7 @@ const TarjetaTela = ({ tela, setIsChanged }) => {
           :
           <img src="src/db/imgs/image-not-found.jpg" className="card-img-top img-tela-container" alt="..." />
           }
-          <div className="card-body">
+          <div className="card-body tarjeta-tela-container">
             {/* <h5 className="card-title">Card title</h5> */}
             {/* className="card-text" */}
             <h5>Color: {tela.color}</h5>
